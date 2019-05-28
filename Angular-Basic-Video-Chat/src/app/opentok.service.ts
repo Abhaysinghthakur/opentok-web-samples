@@ -42,4 +42,8 @@ export class OpentokService {
       });
     });
   }
+
+  dissconnect() {
+    this.session.disconnect();
+  }
 }
